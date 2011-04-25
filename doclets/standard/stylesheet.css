@@ -1,0 +1,294 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: "Verdana", Arial;
+margin: 0px;
+padding: 10px;
+font-size: 85%;
+background-color: #fff;
+color: #000;
+}
+
+a {
+color: #00a;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:visited {
+color: #00a;
+}
+
+table {
+width: 100%;
+margin: 10px 0;
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 2px solid #999;
+}
+
+th {
+padding: 2px 4px;
+background-color: #ccc;
+text-align: left;
+font-size: 140%;
+}
+
+td {
+padding: 2px 4px;
+}
+
+td p {
+padding: 0;
+margin: 0;
+}
+
+hr, p, dl, ul, ol, h1, h2, h3, h4, h5, h6 {
+margin: 5px 0;
+}
+
+dt {
+font-weight: bold;
+}
+
+dd {
+margin-left: 40px;
+}
+
+ul, ol {
+margin-left: 30px;
+}
+
+li:nth-child(odd), tr:nth-child(odd) {
+background-color: #fafafa;
+}
+
+p {
+margin-left: 10px;
+}
+
+h1 {
+font-size: 140%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+font-size: 120%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border-bottom: 1px solid #999;
+}
+
+/* page header */
+
+div.header {
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #eee;
+margin: 0 0 10px;
+padding: 4px 0;
+}
+
+div.header h1 {
+float: right;
+font-size: 100%;
+font-style: italic;
+padding: 0 4px;
+margin: 0;
+}
+
+div.header ul {
+list-style: none;
+margin: 0;
+}
+
+div.header ul li {
+display: inline;
+font-size: 100%;
+font-weight: bold;
+padding: 0 4px;
+}
+
+div.header ul li.active {
+background-color: #00008c;
+color: #fff;
+}
+
+div.header ul li a:visited {
+color: #000;
+}
+
+/* small links */
+
+div.small_links {
+text-transform: uppercase;
+font-size: 65%;
+font-family: Arial, Helvetica, sans-serif;
+margin: 8px;
+}
+
+/* footer */
+
+p#footer {
+font-size: 80%;
+}
+
+/* frames */
+
+#frame h1 {
+font-size: 120%;
+}
+
+#frame h2 {
+font-size: 100%;
+}
+
+#frame ul {
+list-style: none;
+margin-left: 10px;
+}
+
+/* definition writer */
+
+div.qualifiedName {
+font-size: 80%;
+font-weight: bold;
+margin: 10px 0 0;
+}
+
+div.location {
+font-size: 80%;
+float: right;
+}
+
+#definition h1 {
+margin: 10px 0 10px;
+color: #00a;
+}
+
+#definition h2 {
+border: 2px solid #999;
+padding: 2px;
+background-color: #ccc;
+text-align: left;
+font-size: 140%;
+}
+
+pre.tree {
+margin: 10px 0;
+}
+
+table.inherit th {
+background-color: #eee;
+font-size: 120%;
+}
+
+p.signature, div.comment {
+margin: 10px 0;
+}
+
+code.signature {
+display: block;
+margin: 10px 0;
+}
+
+div.details {
+margin: 10px 0 10px 20px;
+}
+
+td.type {
+text-align: right;
+vertical-align: top;
+}
+
+td p.description {
+margin: 2px 0 0 20px;
+}
+
+/* tree */
+
+#tree ul ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.methodDetail {
+margin: 5px 0;
+padding: 0px 5px;
+border: 1px solid #999;
+}
+
+.methodDetail {
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.methodDetail:nth-child(4n) {
+background-color: #fafafa;
+}
+
+pre strong, code strong {
+    color: #06f;
+}
+
+.clear {
+    clear: both;
+}
+
+h1.className {
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-top: 3px;
+    background: url(images/Class_logo.png) center left no-repeat;
+    height: 28px;
+}
+
+h1.className.abstractClass {
+    background-image: url(images/AbstractClass_logo.png);
+}
+
+td.description p.name {
+    font-size: 13px;
+}
+
+p.name a {
+    font-weight: bold;
+}
+
+span.paramType {
+    color: #009000;
+    font-style: italic;
+    font-size: 11px;
+}
+
+p.name span.paramName {
+    font-size: 11px;
+}
+
+p.name span.paramName, code span.paramName {
+    color: #009000;
+}
+
+.paramName {
+    font-weight: bold;
+}
+
+td.type img {
+    top: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+
+td.type .returnType {
+    font-size: 12px;
+}

@@ -1,0 +1,18 @@
+NAME
+	PHPDoctor: The PHP Documentation Creator
+	5.3+ Fork of Peej's Quick & Dirty PHPDoc Clone
+
+WHAT IS DIFFERENT FROM THE ORIGINAL
+	This fork removes compatibility for PHP versions < 5.3.0 and makes namespaces first-class citizens.
+	The @package tag is degraded to a normal "tag" without any special meaning. Instead, namespaces
+	are recognized automatically (no @package required) and the documentation generated accordingly.
+
+DESCRIPTION
+	PHPDoctor is a Javadoc style comment parser for PHP, written with an
+	emphasis on speed and simplicity. It is designed to be as close a
+	clone to Javadoc as possible.
+	
+REQUIREMENTS
+	PHP 5.3.0+ is required.
+
+For more information, please see http://github.com/peej/phpdoctor .
